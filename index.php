@@ -30,17 +30,29 @@ $shows = json_decode($data, true);
       <article class=" wrap_main">
         <article class="title_project"><h3>Project</h3></article>
         <?php
-        foreach ($shows as $show) {
-          $name = $show["name"];
-          $youtube = $show["youtube"];
+        while (list(,$value) = each($shows)) {
+          $name = $value["name"];
 
          ?>
         <article class="boxs_l"><?= $name ?></article>
         <article class="boxs_c"><?= $name ?></article>
         <article class="boxs_r"><?= $name ?></article>
         <?php } ?>
+
       </article>
     </section>
 
   </body>
 </html>
+
+<?php
+//
+// while (list(,$value) = each($shows)) {
+//   echo $value["name"];
+// }
+//
+// foreach ($shows as $show) {
+//   $name = $show["name"];
+//   $youtube = $show["youtube"];
+// }
+ ?>
