@@ -32,9 +32,13 @@ $shows = json_decode($data, true);
         <?php
         while (list(,$value) = each($shows)) {
           $name = $value["name"];
+          $thumneil = $value["thumneils"];
+          $imgwork = $value["imgwork"];
 
          ?>
-        <article class="boxs_l"><?= $name ?></article>
+        <article class="boxs_l"><?= $name ?>
+          <img src="<?= $imgwork ?>">
+        </article>
         <article class="boxs_c"><?= $name ?></article>
         <article class="boxs_r"><?= $name ?></article>
         <?php } ?>
