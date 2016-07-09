@@ -19,7 +19,7 @@ foreach($data as $value){
 }
 ```
 
-###You can get a fill data
+###You can get a field data
 ```
 id  = ID Object
 name = Name Student
