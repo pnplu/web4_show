@@ -6,7 +6,7 @@ $var = file_get_contents('');
 $data = json_decode($var, true);
 ```
 
-###You can use 2 syntax input data from json
+###You can use 2 syntax Get data from json
 ```
 while (list(,$value) = each($data)) {
   $name = $value["name"];
