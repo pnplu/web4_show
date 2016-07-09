@@ -20,7 +20,7 @@ foreach($data as $value){
 ```
 
 ###You can get a fill data
-
+```
 id  = ID Object
 name = Name Student
 stu_id = ID Student
@@ -30,6 +30,7 @@ effect  = Effect from Project
 youtube = Youtube Presentation Project
 thumneils = thumneil cover Project
 imgwork = Image Project
+```
 
-###thumneils directory file is image/small
-###ImageProject directory file is image/big
+###thumneils directory file :::  image/small
+###ImageProject directory file :::  image/big
